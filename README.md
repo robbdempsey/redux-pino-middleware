@@ -7,7 +7,7 @@ what does it need?
 - you could use [this one](https://github.com/robbdempsey/hapi-pino-logger)
 
 what does it do?
-- **window.onload** - sends stats about the critical rendering path
+- **window.onload** - sends stats about the [critical rendering path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp)
 - **window.onerror** - sends the stack and other details about the exception
 - **middleware** 
    - `NODE_ENV === 'development'`: logs the action, state before the action is taken and state after the action is complete to the browser console. Follows the [Redux Middleware](https://redux.js.org/advanced/middleware#problem-logging)  logging example with groups if possible and a fallback to pino if that option is not available.
